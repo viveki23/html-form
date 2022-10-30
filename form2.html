@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>form2</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url("form2.jpg");
+            background-size: cover;
+        }
+
+
+        .bgimg {
+            width: 400px;
+            height: 400px;
+            margin-left: 30%;
+            text-align: center;
+            background-color: rgba(134, 162, 212, 0.5);
+        }
+
+        h2 {
+            margin: 30px 0px;
+        }
+
+        input {
+            width: 80%;
+            height: 50px;
+            margin: 10px;
+            border: none;
+            border-radius: 10px;
+            background: rgb(228, 236, 236);
+        }
+
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: rgb(219, 182, 182);
+            outline: none;
+        }
+
+        input[type=checkbox] {
+            width: 10px;
+            height: 10px;
+        }
+
+        .btn {
+            background-color: #ff0000;
+            color: rgb(255, 255, 255);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="bgimg">
+        <form class="container">
+            <h2>login admin</h2>
+            <input type="text" placeholder="&nbsp;&nbsp;&nbsp;username">
+            <br>
+            <input type="password" placeholder="&nbsp;&nbsp;&nbsp;password">
+            <br>
+            <input type="checkbox">remember me<spna>create a account?<a href="#">register</a></spna>
+            <br>
+            <input type="submit" value="log-in" class="btn">
+        </form>
+    </div>
+</body>
+
+</html>
